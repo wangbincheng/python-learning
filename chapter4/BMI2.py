@@ -1,4 +1,3 @@
-
 #CalBMIv2.py
 height, weight = eval(input("请输入身高(米)和体重\(公斤)[逗号隔开]: "))
 bmi = weight / pow(height, 2)
@@ -12,3 +11,4 @@ elif 24 <= bmi < 28:
     nat = "偏胖"
 else:
     nat = "肥胖"
+print("BMI 指标为:国内'{0}'".format(nat))
